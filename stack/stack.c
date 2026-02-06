@@ -1,11 +1,10 @@
-#include <stdlib.h>
+#include "stack.h"
 
 typedef struct {
 	int* arr;
 	int top;
 	int capacity;
 }Stack;
-
 
 Stack* stack_init(int capacity) {
 	if (capacity <= 0)
