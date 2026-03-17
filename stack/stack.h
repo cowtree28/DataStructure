@@ -1,8 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
 
-#include <stdlib.h>
-
 typedef struct Stack Stack;
 
 Stack* stack_init(int capacity);
